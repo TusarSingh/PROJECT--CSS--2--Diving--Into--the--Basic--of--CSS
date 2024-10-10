@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
 }
 
 #product-overview {
@@ -10,13 +11,14 @@ body {
   color: #2ddf5c;
 }
 
-/* General Sibling Case */
+/* Direct Child Case */
 
-.section-title ~ p {
-  color: palevioletred;
+#product-overview > h1 {
+  color: wheat;
   font-family: 'Anton', sans-serif;
+  font-size: 20px;
 }
 
-p {
+h1 {
   font-family: sans-serif;
 }
