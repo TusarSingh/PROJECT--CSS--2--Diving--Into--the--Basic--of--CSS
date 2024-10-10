@@ -1,3 +1,13 @@
+/* * {
+  font-family: sans-serif;
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: rgb(58, 13, 222);
+}
+
 #product-overview {
   background: #ff1b68;
 }
@@ -9,8 +19,21 @@
 h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+  font-size: 20px;
+}
+
+/* * {
+  font-family: sans-serif;
+  color: yellow;
+} */
+
+h1 {
+  font-family: 'Anton';
 }
 
 h1 {
-  font-family: serif;
+  font-family: inherit;
+  color: inherit;
 }
+
+/* inherit karne per top element ki properties use hoti h. */
