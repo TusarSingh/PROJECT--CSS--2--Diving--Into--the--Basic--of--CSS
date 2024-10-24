@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+  background: #ff1b68;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
+
+/* ! Adjacent Sibling Case */
+
+.section-title + p {
+  color: goldenrod;
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
