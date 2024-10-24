@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+  background: #ff1b68;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
+
+/* ! Descendant Child Case */
+
+#product-overview h1 {
+  color: blue;
+  font-family: 'Anton', sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+}
